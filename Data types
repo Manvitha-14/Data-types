@@ -1,0 +1,11 @@
+○	Primitive Data types: we can store single values
+●	Number- Integer, float
+●	String- stream of characters enclosed in quotes –single, double, backtick quotes
+●	Boolean- true or false
+●	Undefined- declared variables with no values
+●	Null – Empty or no value
+Conditional: An expression that evolves the result(True or False)
+Console.log(4<5)
+
+Conditional statements:To make the set of instructions execute when they only is True.
+Block code: Executes when the specific condition is True.
