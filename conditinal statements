@@ -1,0 +1,55 @@
+Block of code: Set of instructions
+-	It will execute only that specific condition is true 
+Condition: An expression that evaluates the result(True or False)
+Ex: console.log(5>6)
+Methods:
+-	If: only one possible condition. if condition is true it will execute otherwise it will skip.
+
+-	If-else
+-	Else if
+-	Switch
+-	Ternary operator
+
+
+<!-- <script>
+      ScoreA = prompt("Enter your Score of A");
+      ScoreB = prompt("Enter score of B");
+      let total = scoreA + scoreB;
+      if (scoreA > 300 || scoreB > 300) {
+        alert("They can teamup");
+      } else if (total < 500) {
+        alert("Cannot teamup");
+      } else {
+        alert("they can team up");
+      }
+
+      <!age = prompt("enter your age?");
+      name = prompt("Enter your name");
+      if (age < 18) {
+        alert(name + "You are to young to marry");
+      } else if (age > 35) {
+        alert(name + "You are to old to marry");
+      } else {
+        alert(name + "You are eligible to marry");
+      }
+      let a = 5;
+      let b = 10;
+      if (a < b) {
+        document.write("i manvitha ", "<br>");
+      }
+      document.write("Welcome to india"); -->
+      <script>
+        ScoreA = prompt("Enter your Score of A?");
+      ScoreB = prompt("Enter score of B?");
+      let total = ScoreA + ScoreB;
+      if (ScoreA > 300 || ScoreB > 300 && total < 500) {
+        alert("They can teamup");
+      } else  
+      {
+        alert("Cannot teamup");
+      
+      }
+      </script>
+    </script>
+  </body>
+</html>
