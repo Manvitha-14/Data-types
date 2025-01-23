@@ -1,0 +1,52 @@
+FUNCTIONS:
+A function is reusable block of code.It can be called anywhere in a program.
+Reusable code: using an existing code writing it whenever we need. You can use the same code with different arguments to get the results
+
+Js:
+Keyword=function
+() parameters are the values which are declared inside the paranthesis. While defining a function.
+Arguments: values which are passed through the parameters.
+Anonymous Function:
+A function without name,after we create a function without a name and we assign it to a value or a variable.
+Example:
+Sum=function(n1, n2){
+Let r=n1+n2
+return r
+}console.log(sum(8,9))
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!-- <script>
+    function greet(){
+        console.log("Hello Sanjana")
+    }
+    greet()
+    console.log("Hi Varsha")
+    greet()
+   </script>  -->
+
+   <!-- <script>
+    function g(name){
+       console.log("Hello",name)
+    }
+    let name = prompt("Enter your name")
+    g(name)
+   </script> -->
+
+   <script>
+    function add(a,b){
+        console.log(a+b)
+    }
+    let a = parseFloat(prompt("Enter first number"))
+    let b = parseFloat(prompt("Enter second number"))
+    add(a,b)
+   </script>
+</body>
+</html>
