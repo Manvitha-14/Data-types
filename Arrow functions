@@ -1,0 +1,90 @@
+Anonymous Function:
+A function without name,after we create a function without a name and we assign it to a value or a variable.
+Example:
+Sum=function(n1, n2){
+Let r=n1+n2
+return r
+}console.log(sum(8,9))
+
+Arrow functions:
+----Es6 version
+----more readable and more structure
+----anonymous function (lambda functions)
+----without function name but they are assigned to a variable
+
+Let c=()=>{
+Console.log(“Hi Manvitha”)
+}
+Arrow functions with parameters
+Example:
+Let x=(x,y)=>{
+Console.log(x+y)
+}
+X(20,30)
+X(40,50)
+Example:
+Arrow function with one argument
+Let greet=x=>console.log(x);
+Greet(‘hello’)
+Arrow function with out argument
+Let greet=()=>console.log(“hello”)
+Greet()
+Example: Arrow functions as an expression
+Let 18;
+Let welcome=(age<18)?
+()=>console.log(‘hi manvitha’):
+()=>console.log(‘hi pavani’);
+Welcome() 
+
+
+Function task1(){
+console.log(“task1 : start”
+}
+function task2(){
+Console.log(“task2: start”
+}
+Function task3(){
+Console.log(“task3:start”
+}
+
+
+Asynchronous function:
+It will lead us to do multiple tasks at a time.
+Console.log(“hi manvitha”);
+setTimeout(()=>{
+console.log(“hi I am waiting”)
+),5000);
+Console.log(“I am in lab”)
+
+JavaScript callbacks:
+A call back function is a function that is passed argument to another function;
+
+Function greet(name,callback){
+Console.log(`hello,${name}!`)
+Callback();
+//this calls the callback function after greeting
+}
+Function sayGoodbye(){
+Console.log(“Goodbye”)
+}
+//call greet and pass say goodbye as the callback
+Greet(“sam”, Goodbye)
+
+
+
+
+--eventual completion
+Promises/ Three states
+1.	Pending: still not completed ---continuing
+2.	Fulfilled: task completed
+3.	Rejected: the operation is failed
+Example:
+Let mypromise=new promise((resolve,reject)=>
+{ let success = true;
+If(success){
+Resolve(“task completed”);
+}; else{
+Reject(“task completed”)
+}
+};
+) 
