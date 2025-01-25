@@ -1,0 +1,77 @@
+<!-- <script>
+      function mainfunction(callback) {
+        console.log("Executing main function");
+        callback();
+      }
+      //here we call the callbackFunction(){
+      function callbackFunction() {
+        console.log("call backfunction executed");
+      }
+
+      mainfunction(callbackFunction);
+    </script> -->
+    <!-- <script>
+      function greet(name, callback) {
+        console.log("hello " + name);
+        callback();
+      }
+      function goodbye() {
+        console.log("Good bye");
+      }
+      greet("pavani", goodbye);
+    </script> -->
+    <script>
+      function fetchData(callback) {
+        console.log("fetching data…");
+        setTimeout(function () {
+          console.log("Data fetched");
+          callback();
+        }, 2000);
+      }
+      function processData() {
+        console.log("processing the fetched data…");
+      }
+      fetchData(processData);
+    </script>
+
+
+//notes
+
+
+Callback functions: you can pass the callback function as an argument to another function.
+Execution: the function receiving the callback will execute the callback at some point during the execution (often at the end or after asynchronous operation is done)
+
+
+Example:
+Function mainfunction(callback){
+Console.log(“Executing main function”);
+Callback()
+//here we call the callbackFunction(){
+Console.log(“call backfunction executed”)
+}
+Mainfunction(callbackfunction);
+
+Explanation:
+Mainfunction is taking the parameter callback
+callbackFunction is passed as an argumentto mainfunction inside the mainfunction,the callback function.
+
+Function greet(name,callback){
+Console.log(“hello”+name);
+Callback();
+}
+Function goodbye(){
+Console.log(“Good bye”)
+}
+Greet(“pavani”,goodbye);
+
+Function fetchData(callback){
+Console.log(“fetching data….”)
+setTimeout(function(){
+console.log(“Data fetched”);
+callback();
+}2000);
+}
+Function processData(){
+Console.log(“processing the fetched data….”)
+}
+FetchData(processData);
