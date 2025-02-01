@@ -1,0 +1,40 @@
+<!-- <script>
+      age = prompt("enter age");
+      citizen = prompt("Enter your country");
+      Test = prompt("Enter if they passed the test");
+      if (age > 18 || citizen == Indian) {
+        alert("They are eligible to vote");
+      } else if (Test == passed) {
+        alert("they are eligible to vote");
+      } else {
+        alert("They are not eligible to vote");
+      }
+    </script> -->
+    <!-- <script>
+      let age = prompt("Enter the age");
+      let citizen = prompt("Enter the citizenship");
+      let cTest = prompt("Citizenship result");
+
+      if (age >= 18 && (citizen == "Indian" || cTest == "Passed")) {
+        document.write("Can eligible for voting");
+      } else {
+        document.write("Cannot vote");
+      }
+    </script> -->
+    <!-- <script>
+      let spend = prompt("Enter amount spend");
+      let customer = prompt("Enter is a premium member or not");
+      if (spend > 100) {
+        document.write("You will get 20% discount");
+      } else if (spend > 50) {
+        document.write("You will get 10% discount");
+      }
+      if (customer == premium) {
+        document.write("you will get 5% discount");
+      }
+    </script> -->
+    <!-- <script>
+    <!- </script>
+    </script>  -->
+  </body>
+</html>
