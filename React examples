@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/react@15.5.4/dist/react.js"></script>
+    <script src="https://unpkg.com/react-dom@15.5.4/dist/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.25.0/babel.min.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+    <script type="text/babel">
+        const App=()=>{
+            const isLoggedIn=false;
+            return(
+                <div>
+                    {isLoggedIn ?(<h1> Welcome back,user!</h1>):(<h1>please log in</h1>)}
+                    {isLoggedIn &&<h2>You have notification</h2>}
+                </div>
+            );
+        };
+        const root=ReactDOM.createRoot(document.getElementById('app'))
+        root.render(<App>/)
+        
+
+        </body>
+        </html>
